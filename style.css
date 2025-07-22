@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  font-family: "Barlow Semi Condensed";
+  background-color: #1b1a1a;
+}
+.profile {
+  text-align: center;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: beige;
+  padding: 5px 5px;
+  margin: 5px;
+}
+.about h2,
+h4 {
+  margin: 0px;
+}
+
+img {
+  padding: 0px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.data {
+  margin: 30px 70px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgb(40, 34, 34);
+  border-radius: 5px;
+}
+.box {
+  display: flex;
+
+  margin: 5px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+.tit {
+  color: white;
+  text-decoration: underline;
+}
+
+.data img {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+
+  margin: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+p,
+a {
+  margin-top: 14px;
+  margin-left: 0px;
+  padding: 0px;
+}
+.num,
+.email,
+.Add,
+.link {
+  font-size: 16px;
+  margin: 0%;
+  margin-top: 10px;
+}
+.desig {
+  text-align: center;
+  display: inline;
+  width: 80px;
+  padding: 2px;
+  margin: 0 auto;
+  background-color: rgb(40, 34, 34);
+  border-radius: 3px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 7px;
+  background-color: #26b5ee;
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+
+  color: #54b4d3;
+  border-style: 1px dotted #bbb;
+}
+.abtme {
+  background-color: black;
+  color: beige;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
+.educ {
+  background-color: black;
+  color: beige;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
+hr.dotted {
+  border-top: 1px rounded #bbb;
+}
+
+.para {
+  color: gray;
+}
+
+.deg,
+.date {
+  margin: 0px;
+}
+.marks {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.edu {
+  color: gray;
+}
+.jprogress,
+.sprogress,
+.hprogress,
+.cprogress,
+.jsprogress {
+  width: 100px;
+  background-color: #ddd;
+  margin: 5px;
+}
+
+.jprogress-bar,
+.sprogress-bar,
+.hprogress-bar,
+.cprogress-bar,
+.jsprogress-bar {
+  height: 15px;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
+}
+.jprogress-bar {
+  width: 70%;
+}
+
+.sprogress-bar {
+  width: 80%;
+}
+
+.hprogress-bar {
+  width: 90%;
+}
+
+.cprogress-bar {
+  width: 85%;
+}
+
+.jsprogress-bar {
+  width: 65%;
+}
+
+.java,
+.sql,
+.html,
+.css,
+.js {
+  margin-right: 20px;
+}
+.skills {
+  background-color: black;
+  color: beige;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+.btm ul {
+  padding: 2px;
+}
+
+.forflex,
+.btm {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+.Exp {
+  background-color: black;
+  color: beige;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+  height: 60%;
+}
+.Expdata {
+  color: gray;
+  padding: 15px;
+  text-align: left;
+  font-size: 18px;
+}
+.projects {
+  background-color: black;
+  color: beige;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
+
+.projects p {
+  color: gray;
+}
+.insidecontainer2 {
+  width: 100%;
+}
+
+i {
+  padding: 10px;
+}
+
+.prdata {
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 20px;
+}
+@media (min-width: 576px) {
+  .container,
+  .container2 {
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+  }
+  .skills {
+    flex-basis: 50%;
+  }
+  .projects {
+    flex-basis: 50%;
+  }
+  .about {
+    flex-basis: 50%;
+  }
+  .box2 {
+    flex-basis: 50%;
+  }
+}
