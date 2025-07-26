@@ -67,7 +67,7 @@ a {
   padding: 0px;
 }
 .num,
-.email,
+#email,
 .Add,
 .link {
   font-size: 16px;
@@ -236,6 +236,7 @@ i {
   padding: 15px;
   border-radius: 20px;
 }
+
 @media (min-width: 576px) {
   .container,
   .container2 {
@@ -243,6 +244,10 @@ i {
     display: flex;
     margin: auto;
   }
+  .email {
+    font-size: 1 em;
+  }
+
   .skills {
     flex-basis: 50%;
   }
